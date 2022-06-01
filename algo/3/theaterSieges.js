@@ -18,7 +18,7 @@ exemple :
 */
 
 function theaterSieges() {
-  // Your code here !
+  for(let i = 0; i < theaterSieges.length; i++); 
 }
 
 console.log(theaterSieges());
