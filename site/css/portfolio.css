@@ -48,7 +48,9 @@
 }
 
 .skills {
-  display: flex;
+  display:flex;
+  flex-direction:row-reverse;
+  justify-content: center;
   margin-top: -30px;
   border-radius: 12px;
   padding: 0 10%;
@@ -80,6 +82,22 @@
   padding: 0;
 }
 
+.heading {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      align-content: stretch;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-top: 50px;
+}
+.contents{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+
 .box {
   width: 25%;
   padding: 30px;
@@ -104,6 +122,12 @@ p {
 }
 
 h2{
-  align-items: center;
   margin-bottom: 40px;
+}
+.disabled{
+  opacity: 50%;
+}
+.button1{
+  color: black;
+  margin-top: 20px;
 }
